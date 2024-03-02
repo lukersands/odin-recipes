@@ -1,0 +1,58 @@
+.title{
+    text-align: center;
+    background-color:aquamarine;
+    font-size: 60px;
+
+}
+.main-title{
+    text-align: center;
+    font-size: 70px;
+    background-color: blueviolet;
+    color:aliceblue
+}
+
+.main-title, .title{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.list{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#item-1{
+    color:brown;
+}
+
+#item-2{
+    color:orange;
+}
+
+#item-3{
+    color: green;
+}
+
+.descriptions{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    background-color: pink;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+.des-text{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#des-larger-text .des-text{
+    font-size: 25px;
+}
+
+#las{
+    font-size: 20px;
+}
