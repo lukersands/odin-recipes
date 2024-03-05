@@ -2,13 +2,24 @@
     text-align: center;
     background-color:aquamarine;
     font-size: 60px;
+    margin-bottom:32px;
+    margin-right:230px;
+    margin-left:230px;
+    padding:8px;
+    border:4px solid green;
 
 }
 .main-title{
     text-align: center;
     font-size: 70px;
-    background-color: blueviolet;
-    color:aliceblue
+    background-color: blue;
+    color:aliceblue;
+    margin-top:32px;
+    margin-bottom:32px;
+    margin-right:100px;
+    margin-left:100px;
+    padding:8px;
+    border:8px solid navy;
 }
 
 .main-title, .title{
@@ -16,43 +27,71 @@
     font-family:'Courier New', Courier, monospace;
 }
 
-.list{
-    font-size: 45px;
+.list {
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    border:4px solid navy;
+    padding: 26px;
+}
+
+.center{
+    text-align: center;
 }
 
 #item-1{
     color:brown;
+    display:inline-block;
 }
 
 #item-2{
     color:orange;
+    display:inline-block;
 }
 
 #item-3{
     color: green;
+    display:inline-block;
 }
 
 .descriptions{
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
+    color:black;
     background-color: pink;
+    display:block;
+    margin-left:150px;
+    margin-right:150px;
+    text-align: left;
+    border:4px solid red;
+    padding:20px;
 }
 
 .images{
     display: block;
+    border: 3px dotted green;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:100px;
     width: 450px;
 }
 .des-text{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left:150px;
+margin-right:150px;
+margin-top:  30px;
+margin-bottom: 30px;
 }
 
 #des-larger-text .des-text{
     font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-left:150px;
+    margin-right:150px;
 }
 
 #las{
     font-size: 20px;
+
 }
